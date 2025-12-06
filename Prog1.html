@@ -2,12 +2,78 @@
 <html>
 
 <head>
-   <title>CSS introduction</title>
+    <style>
+        body {
+            font-family: 'Aerial', sans-serif;
+            background-color: #0D1117;
+            color: #C9D1D9;
+        }
+
+        a {
+            color: #8B9A9E;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #eb1f6d;
+        }
+
+        ul>li {
+            font-weight: bold;
+        }
+
+        h1+p {
+            background-color: #161B22;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        ul li:hover {
+            color: #4fe959;
+        }
+
+        ul li:nth-child(3) {
+            background-color: #eb0e33;
+        }
+
+        p:not(:first-of-type) {
+            text-decoration: underline;
+        }
+
+        ul li::before {
+            content: "🚀";
+        }
+
+        a::after {
+            content: "↗️";
+        }
+    </style>
 </head>
 
 <body>
-    <h2><b><mark>Full form of CSS :- Cascading Style Sheet</mark></b></h2><br>
-
+    <h1>Welcome to the Space Explorer's Club</h1>
+    <ul>
+        <li>Moon Missions</li>
+        <li>Mars Rovers</li>
+        <li>Black hole mysteries</li>
+        <li>International Space Station</li>
+        <li>Telescope and Stars</li>
+    </ul>
+    <p>Space is a vast and mysterious expanse filled with wonders, from celestial bodies to cosmic phenomena, and here
+        are some
+        intriguing facts to explore.</p>
+    <p>Space is a three-dimensional continuum containing positions and directions.[1] In classical physics, physical
+        space is
+        often conceived in three linear dimensions. Modern physicists usually consider it, with time, to be part of a
+        boundless
+        four-dimensional continuum known as spacetime.[2] The concept of space is considered to be of fundamental
+        importance to
+        an understanding of the physical universe. However, disagreement continues between philosophers over whether it
+        is
+        itself an entity, a relationship between entities, or part of a conceptual framework.</p>
+    <a href="#">Join our Mission</a>
+    <a href="#">Latest Space News</a>
+    <a href="#">Gallery of the Universe</a>
 </body>
 
 </html>
